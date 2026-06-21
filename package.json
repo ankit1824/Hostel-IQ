@@ -8,5 +8,10 @@
     "build-frontend": "npm run build --prefix frontend",
     "build": "npm run install-frontend && npm run build-frontend && npm run install-backend",
     "start": "node backend/server.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.1"
   }
 }
